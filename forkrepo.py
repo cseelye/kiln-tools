@@ -45,7 +45,7 @@ def main(token,
     log.passed("Successfully created new repo")
 
 if __name__ == "__main__":
-    parser = ArgumentParser(description="Delete a repo in Kiln")
+    parser = ArgumentParser(description="Create a new fork of an existing repo in Kiln")
     parser.add_argument("-t", "--token", type=StrType(), use_appconfig=True, help="Your Kiln/Fogbugz token. If you do not have one, go to your user prefs and create an API token")
     parser.add_argument("parent_name", type=StrType(), help="The name of the parent repo to fork")
     parser.add_argument("repo_name", type=StrType(), help="The name of the new repo to create")
