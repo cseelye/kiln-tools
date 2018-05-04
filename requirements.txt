@@ -1,0 +1,2 @@
+pyapputil>=1.0.7
+requests>=2.18.4
