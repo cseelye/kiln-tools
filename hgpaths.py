@@ -1,5 +1,11 @@
 #!/usr/bin/env python2.7
-"""Delete a repo on Kiln"""
+"""
+Create an hg paths configuration file with all of the repos available in your Kiln instance.
+
+This allows you to use short aliases instead of the full repo path. I typically use this tool to write out an .hgpaths 
+file, and then include that file in my main .hgrc
+%include ~/.hgpaths
+"""
 
 from pyapputil.appframework import PythonApp
 from pyapputil.argutil import ArgumentParser
