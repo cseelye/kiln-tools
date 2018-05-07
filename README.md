@@ -2,8 +2,9 @@
 A few command line tools for FogCreek's Kiln
 
 ```
-./forkrepo.py parent_name fork_name
-./delrepo.py repo_name
+./forkrepo.py parent_name fork_name 
+./delrepo.py repo_name 
+./kilnpaths.py -f ~/.hgpaths
 ```
 
 ## Usage
