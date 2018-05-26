@@ -55,6 +55,7 @@ def main(token,
         output.flush()
 
     log.info("Successfully wrote {} repos to {}".format(count, hgpaths_file))
+    return True
 
 if __name__ == "__main__":
     parser = ArgumentParser(description="Create an hg paths config file with all of the repos in your Kiln instance. This file can then be %include in your .hgrc file to make hg operations easier")

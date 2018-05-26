@@ -26,6 +26,7 @@ def main(token,
         log.error(ex.message)
         return False
     log.passed("Successfully deleted '{}'".format(repo_name))
+    return True
 
 if __name__ == "__main__":
     parser = ArgumentParser(description="Delete a repo in Kiln")

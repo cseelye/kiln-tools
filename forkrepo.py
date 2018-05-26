@@ -43,6 +43,7 @@ def main(token,
         return False
 
     log.passed("Successfully created new repo")
+    return True
 
 if __name__ == "__main__":
     parser = ArgumentParser(description="Create a new fork of an existing repo in Kiln")
